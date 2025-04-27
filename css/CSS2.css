@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    background-color: black;
+  }
+  * a {
+    text-decoration: none;
+  }
+  * il {
+    list-style: none;
+  }
+  .container {
+    min-height: 120vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .navBar {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin: 0 auto;
+    align-items: center;
+    height: 10vh;
+  }
+  .navBar ul {
+    display: flex;
+    align-items: center;
+  }
+  .navBar ul il {
+    padding: 0 25px;
+  }
+  .navBar ul il a {
+    color:red;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  .main h1{
+    background-color: white;
+    border-style: double;
+    border-width: 20px;
+    border: 10px solid black;
+    outline-style: solid;
+    outline-color:yellowgreen;
+    outline-width: thin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+  }
+   .img{
+   
+    margin-top:2rem;
+    text-align: center;
+  } 
+.img p{
+    padding: 0.5rem;
+    margin: 0 2rem;
+    font-size: larger;
+    color: white;
+    text-align: left;
+}
+hr{
+    margin-top: 2rem;
+}
+.main1{
+    border-style: double;
+    border-width: 20px;
+    border: 10px solid black;
+    outline-style: solid;
+    outline-color:yellowgreen;
+    outline-width: thin;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    height: 60px;
+}
+.main1 h1{
+   border: none;
+   background-color: white;
+}
+.card{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    border: 5px double red;
+}
+.card-item{
+    padding: 2rem;
+    text-align: center;
+}
+.card-item p{
+    text-align: left;
+    margin-top: 2rem;
+    color: white;
+    font-size: larger;
+}
+.card img{
+    border-radius: 100%;
+
+}
+.card h2{
+    padding: 00.5rem;
+    color: red;
+}
+
+
+.card1{ 
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    border: 5px double red;
+}
+.card-item1{
+    padding: 2rem;
+    text-align: center;
+}
+.card-item1 p{
+    text-align: left;
+    margin-top: 2rem;
+    color: white;
+    font-size: larger;
+}
+.card img{
+    border-radius: 100%;
+}
+.card-item1 h2{
+    padding: 00.5rem;
+    color: red;
+}
+
